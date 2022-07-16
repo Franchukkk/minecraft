@@ -1,0 +1,264 @@
+body {
+    margin: 0px;
+    font-family: "Arial", sans-serif;
+    background-color: #1f1f1f;
+}
+
+p {
+    color: lightcyan;
+    
+}
+
+h1 {
+    color: lightcyan;
+}
+
+ul {
+    color: lightcyan;
+}
+
+
+
+a {
+    font-size: 20px;
+    color: white;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #288123;
+    font-size: 25px;
+}
+
+
+.header-line {
+    top: 0px;
+    background-color: #1c1c1c;
+    display: flex;
+    padding: 15px 50px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    width: 50%;
+}
+
+.main-menu a {
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+
+.header {
+    background-color: black;
+}
+
+.main {
+    padding: 50px;
+}
+
+.header-bg {
+    padding: 10%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: #fff;
+    display: block;
+    width: 95%;
+    background-image: url(https://www.minecraft.net/content/dam/minecraft/home/home-hero-1200x600.jpg);
+    background-size: cover;
+}
+
+#rer2021 {
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    border-top: 5px solid #6bc349;
+    vertical-align: middle;
+    padding: 20px;
+    color: aliceblue;
+    background-color: #3b8526;
+    font-size: 25px;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+
+#rer2021:hover {
+    border-color: #22282a;
+    background-color: #22282a;
+}
+
+#rer2021 a {
+    font-weight: bold;
+    display: inline-block;
+    font-family: "Arial", sans-serif;
+    padding: 10%;
+}
+
+.header-content {
+    width: 35%;
+}
+
+.header-content h1 {
+    font-size: 50px;
+    color: honeydew;
+}
+
+.header-content p {
+    font-size: 20px;
+    color: honeydew;
+    padding-bottom: 20px;
+}
+
+.main-menu a {
+    transition: 0.5s all ease;
+    font-size: 15px;
+}
+
+.main-menu a:hover {
+  
+    color: #74a62f;
+}
+
+.main-menu {
+    margin-left: 50%;
+}
+
+.footer-line {
+    display: flex;
+    padding: 20px 50px;
+    background: #313131;
+    text-align: center;
+}
+
+.footer-line a {
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+
+.footer-line a:hover {
+    color: grey;
+}
+
+.wrapper {
+    margin: 0 auto;
+    background: #eeeeee;
+    width: 72%;
+    height: 0%;
+    box-sizing: border-box;
+}
+
+.wrapper a {
+    color: #288123;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.wrapper a:hover {
+    color: #313131;
+    text-decoration: underline;
+    
+}
+
+.wrapper img {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 15%;
+    transition: 0.5s all ease;
+}
+
+.wrapper img:hover {
+    
+    transform: scale(1.05);
+
+}
+
+.wrapper h4 {
+    color: #3b8256;
+    font-size: 25px;
+}
+
+.wrapper h2 {
+    text-transform: uppercase;
+    padding: 2%;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    font-size: 36px;
+}
+
+.wrapper p {
+    
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+}
+
+.describe{
+    display: flex;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    
+}
+.minecraft, .dungeons, .education{
+    width: 20%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+
+
+.games {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    text-align: center;
+
+}
+
+.footer {
+    border-top: 10px solid #000;
+    background-color: #1c1c1c;
+}
+
+.footer-menu {
+    width: 100%;
+    display: flex;
+    text-indent:30px
+}
+
+.footer-menu a {
+    font-size:13px;
+}
+
+#afoot {
+    margin-right:32%;
+}
+
+.footer-menu .phone {
+    text-decoration: underline;
+}
+
+.footer-menu .phone:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-menu .email {
+    text-decoration: underline;
+}
+
+.footer-menu .email:hover {
+    text-decoration: none;
+    color: white;
+}
